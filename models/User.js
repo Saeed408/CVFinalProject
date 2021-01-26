@@ -8,6 +8,7 @@ const UserSchema = new mongoose.Schema({
   photoUrl: { type: String},
   location: { type: String},
   phone: { type: String},
+  address : { type: String},
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   linkedin: { type: String},
